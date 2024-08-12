@@ -1,0 +1,1 @@
+Due to the policy requirements of this dataset, please request and download the HighD dataset from the [highD official website](https://www.highd-dataset.com/). Normally, applications take 7-14 working days to be approved.
