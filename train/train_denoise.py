@@ -6,7 +6,7 @@ import math
 import torch
 from torch.utils.data import DataLoader
 from loader.ngsimloader import NgsimDataset
-from Denoise import TransformerDenoisingModel
+from denoise import TransformerDenoisingModel
 from utils import print_log
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '3'
