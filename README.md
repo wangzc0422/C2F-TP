@@ -29,7 +29,7 @@ cd train
 python train_c2f.py
 ```-->
 ### Evaluate
-Run the following script to evaluate C2F-TP.
+Run the following scripts to evaluate C2F-TP.
 ```
 cd train
 python evaluate_c2f.py
