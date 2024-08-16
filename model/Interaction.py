@@ -8,9 +8,9 @@ from layers import WaveBlock, outputActivation
 from einops import repeat
 
 
-class Sampling(nn.Module):
+class Interaction(nn.Module):
     def __init__(self, args):
-        super(Sampling, self).__init__()
+        super(Interaction, self).__init__()
 
         # unpack arguments
         self.args = args
