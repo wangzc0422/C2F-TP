@@ -12,28 +12,29 @@ Accurately predicting the trajectory of vehicles is critically important for ens
 The NGSIM dataset contains trajectories of real freeway traffic captured at 10 Hz over a time span of 45 minutes in 2015. It is collected on eastbound I-80 in the San Francisco Bay area and southbound US 101 in Los Angeles. Like the baselines, the NGSIM dataset in our work is segmented in the same way as in the most widely used work [Deo and Trivedi, 2018](https://github.com/nachiket92/conv-social-pooling), so that comparisons can be made.
 ### highD
 The highD dataset consists of trajectories of 110000 vehicles recorded at 25 Hz, which are collected at a segment of two-way roads around Cologne in Germany from 2017 to 2018. Due to the policy requirements of this dataset, please request and download the HighD dataset from the [highD official website](https://www.highd-dataset.com/). Normally, applications take 7-14 working days to be approved.
-## Training
-To train a coarse-to-fine framework, we consider a two-stage training strategy, where the first stage trains a denoising module and the second stage focuses on training a spatial-temporal interaction module. 
-You can use the following command to start training C2F-TP.
+## Running
+We consider a two-stage training strategy to train C2F-TP as follows, which first trains the Refinement module and then train the Spatio-Temporal Interaction module. <!--, where the first stage trains a denoising module and the second stage focuses on training a spatial-temporal interaction module. 
+You can use the following command to start training C2F-TP.-->
 
-Firstly train the Refinement module.
+<!-- - **Train the Refinement module.** -->
 ```
 cd train
 python train_denoise.py
+python train_c2f.py
 ```
-Then freeze the parameters of the Refinement module to train the Spatial-Temporal Interaction module.
+<!-- - **Freeze the parameters of the Refinement module and train the Spatial-Temporal Interaction module.**
 ```
 cd train
 python train_c2f.py
-```
+```-->
 ## Evaluate
-You can use the following command to start evaluating C2F-TP.
+Run the following script to evaluate C2F-TP.
 ```
 cd train
 python evaluate_c2f.py
 ```
 ## Environment
-Create a new python environment (`c2f`) using `conda`:
+Create a new Python environment (`c2f`) using `conda`:
 ```
 conda create -n c2f python=3.7
 conda activate c2f
