@@ -15,10 +15,10 @@ The highD dataset consists of trajectories of 110000 vehicles recorded at 25 Hz,
 ## Training
 To train a coarse-to-fine framework, we consider a two-stage training strategy, where the first stage trains a denoising module and the second stage focuses on training a spatial-temporal interaction module. 
 You can use the following command to start training C2F-TP.
+
 Firstly train the Refinement module.
 ```
 cd train
-# train denoising module
 python train_denoise.py
 ```
 Then freeze the parameters of the Refinement module to train the Spatial-Temporal Interaction module.
