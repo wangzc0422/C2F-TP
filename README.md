@@ -26,6 +26,12 @@ Then freeze the parameters of the Refinement module to train the Spatial-Tempora
 cd train
 python train_c2f.py
 ```
+## Evaluate
+You can use the following command to start evaluating C2F-TP.
+```
+cd train
+python evaluate_c2f.py
+```
 ## Environment
 Create a new python environment (`c2f`) using `conda`:
 ```
