@@ -14,7 +14,7 @@ The NGSIM dataset contains trajectories of real freeway traffic captured at 10 H
 The highD dataset consists of trajectories of 110000 vehicles recorded at 25 Hz, which are collected at a segment of two-way roads around Cologne in Germany from 2017 to 2018. Due to the policy requirements of this dataset, please request and download the HighD dataset from the [highD official website](https://www.highd-dataset.com/). Normally, applications take 7-14 working days to be approved.
 ## Running
 ### Train
-We consider a two-stage training strategy to train C2F-TP as follows, which first trains the Refinement module and then train the Spatio-Temporal Interaction module. <!--, where the first stage trains a denoising module and the second stage focuses on training a spatial-temporal interaction module. 
+We consider a two-stage training strategy to train C2F-TP as follows, which first trains the Refinement module and then trains the Spatio-Temporal Interaction module. <!--, where the first stage trains a denoising module and the second stage focuses on training a spatial-temporal interaction module. 
 You can use the following command to start training C2F-TP.-->
 
 <!-- - **Train the Refinement module.** -->
