@@ -12,6 +12,8 @@ Accurately predicting the trajectory of vehicles is critically important for ens
 The NGSIM dataset contains trajectories of real freeway traffic captured at 10 Hz over a time span of 45 minutes in 2015. It is collected on eastbound I-80 in the San Francisco Bay area and southbound US 101 in Los Angeles. Like the baselines, the NGSIM dataset in our work is segmented in the same way as in the most widely used work [Deo and Trivedi, 2018](https://github.com/nachiket92/conv-social-pooling), so that comparisons can be made.
 ### highD
 The highD dataset consists of trajectories of 110000 vehicles recorded at 25 Hz, which are collected at a segment of two-way roads around Cologne in Germany from 2017 to 2018. Due to the policy requirements of this dataset, please request and download the HighD dataset from the [highD official website](https://www.highd-dataset.com/). Normally, applications take 7-14 working days to be approved.
+## Training
+
 ## Environment
 Create a new python environment (`c2f`) using `conda`:
 ```
@@ -22,4 +24,3 @@ Run the following script for environment configuration.
 ```
 pip install -r requirements.txt
 ```
-## Training
