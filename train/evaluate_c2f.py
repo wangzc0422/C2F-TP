@@ -193,7 +193,6 @@ with torch.no_grad():
         samples += distances.shape[0]
             # if count==2:
             # 	break
-
 for time_i in range(5):
     print(time_i + 1)
     print(performance['ADE'][time_i]*0.3048/samples)
