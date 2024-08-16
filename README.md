@@ -22,7 +22,7 @@ cd train
 python train_denoise.py
 python train_c2f.py
 ```
-<!-- - **Freeze the parameters of the Refinement module and train the Spatial-Temporal Interaction module.**
+<!-- - **Freeze the parameters of the Refinement module and trains the Spatial-Temporal Interaction module.**
 ```
 cd train
 python train_c2f.py
