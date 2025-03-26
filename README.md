@@ -1,4 +1,4 @@
-# C2F-TP: A Coarse-to-Fine Denoising Framework for Uncertainty-aware Trajectory Prediction (Under Review)
+# C2F-TP: A Coarse-to-Fine Denoising Framework for Uncertainty-aware Trajectory Prediction
 This repository contains the official implementation of C2F-TP: A Coarse-to-Fine Denoising Framework for Uncertainty-aware Trajectory Prediction.
 <!--
 ## Background
